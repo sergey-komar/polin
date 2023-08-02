@@ -1,0 +1,50 @@
+.sity-modal {
+    position: absolute;
+    width: 38rem;
+    padding: 2.5rem;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 2px solid rgba(57, 116, 121, 0.40);
+    z-index: 2;
+    display: none;
+}
+.sity-modal__inner{
+    display: flex;
+    column-gap: 2rem;
+}
+.sity-modal__title {
+    margin-bottom: 1.2rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: #231F20;
+}
+.sity-modal__text {
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    color: #231F20;
+}
+.sity-modal__btn,
+.sity-modal__btn-active {
+    width: 17rem;
+    height: 5.2rem;
+    border-radius: 12px;
+    border: 2px solid #397479;
+    color: #397479;
+    text-align: center;
+    cursor: pointer;
+    line-height: 5.2rem;
+}
+.sity-modal__btn{
+    background:#FFF;
+}
+.sity-modal__btn-active {
+  background-color: #397479;
+  color: #fff;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
