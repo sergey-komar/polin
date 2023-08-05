@@ -1,0 +1,154 @@
+.novelties,
+.merch {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.bestsellers,
+.home-news{
+    padding-bottom: 10rem;
+}
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-block__item {
+    position: relative;
+    width: 21rem;
+}
+
+.card-block__item-title {
+    margin-top: 1.2rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+.card-block__item-text {
+    margin-bottom: 3rem;
+    color: rgba(35, 31, 32, 0.60);
+}
+.card-block__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.card-block__bottom-price--new {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.card-block__bottom-price--old {
+    display: block;
+    color: #C64070;
+    text-decoration: line-through;
+}
+.card-block__bottom-basket {
+    display: block;
+    position: relative;
+    padding-right: 1.5rem;
+    width: 12.4rem;
+    height: 5.2rem;
+    border-radius: 12px;
+    background:  #397479;
+    line-height: 5.2rem;
+    color: #fff;
+    text-align: right;
+}
+.card-block__bottom-basket::before{
+    position: absolute;
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    background: url('../images/icon/card-basket.svg') no-repeat;
+    left: 7px;
+    top: 12px;
+}
+.card-block__item-sale,
+.card-block__item-novelties {
+    position: absolute;
+    left: 0;
+    padding: 4px 8px;
+    border-radius: 0px 12px 12px 0px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.card-block__item-sale{
+    top: 0;
+    background: #C64070;
+}
+.card-block__item-novelties{
+    top: 35px;
+    background: #964BA3;
+}
+
+
+
+//MAILING
+.mailing{
+    padding-top: 11.5rem;
+    padding-bottom: 11.5rem;
+    background: linear-gradient(153deg, #397479 0%, #699C9B 100%);
+}
+.mailing-block {
+    display: flex;
+}
+.mailing-block__title {
+    max-width: 50.4rem;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+.mailing-form {
+    margin-left: 7.2rem;
+    display: flex;
+    align-items: center;
+}
+.mailing-form__box-email {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    color: #fff;
+}
+.mailing-form__wrapper {
+    position: relative;
+    margin-bottom: .5rem;
+}
+.mailing-form__wrapper::before{
+    position: absolute;
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    background: url('../images/icon/home-mail.svg') no-repeat;
+    top: 15px;
+    left: 12px;
+}
+.mailing-form__box-input {
+    padding-left: 4.4rem;
+    padding-right: 4rem;
+    max-width: 45.6rem;
+    width: 100%;
+    height: 5.2rem;
+    border-radius: 12px;
+    border: 2px solid rgba(57, 116, 121, 0.20);
+    background: #FFF;
+}
+.mailing-form__box-input::placeholder{
+    font-size: 1.4rem;
+    color: rgba(35, 31, 32, 0.40);
+}
+.mailing-form__box-text {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.80);
+}
+.mailing-form__box-btn {
+    margin-left: 2.4rem;
+    width: 12rem;
+    height: 5.2rem;
+    border-radius: 12px;
+    background: #fff;
+    color: #397479;
+    line-height: 5.2rem;
+    border: none;
+    font-weight: 500;
+    text-align: center;
+}

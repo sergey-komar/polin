@@ -36,8 +36,8 @@
     min-width: 215px;
 }
 .header__center-catalog {
-    padding: 1.4rem 2.7rem 1.4rem 3rem;
-    width: 16rem;
+    padding: 1.4rem 2.7rem 1rem 3rem;
+    width: 15rem;
     position: relative;
     background-color: #fff;
     border-radius: 1.2rem;
@@ -52,14 +52,16 @@
     width: 2.4rem;
     height: 2.4rem;
     background: url('../images/icon/Catalogue.svg') no-repeat;
-    top: 12px;
-    left: 10px;
+    top: 14px;
+    left: 30px;
+}
+.header__center-catalog div{
+    transform: translate(12px , 2px);
 }
 .header-form {
-    width: 100%;
-    padding: 1.4rem 4rem;
+    width: 77rem;
+    padding: 1.4rem 4rem 1rem 4rem;
     border-radius: 1.2rem;
-    height: 5.5rem;
     background-color: #fff;
 }
 .header-form-btn {
@@ -81,11 +83,14 @@
 }
 .header-form-input {
     width: 100%;
+    margin-left: 1rem;
+    transform: translateY(1px);
     border: none;
 }
 .header-form-input::placeholder{
     font-size: 1.4rem;
-    color: rgba(35, 31, 32, 0.40);  
+    color: rgba(35, 31, 32, 0.40);
+    line-height: 1.4rem;  
 }
 .header__center-basket {
     display: block;
