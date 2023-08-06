@@ -1,0 +1,113 @@
+
+.news-detail {
+}
+.news-detail__content {
+    margin-bottom: 4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.news-detail__content-date {
+    padding-top: 26.5rem;
+    padding-left: 4rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.80);
+}
+.news-detail__box {
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.news-detail__box-title {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+}
+.news-detail__box-img {
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+.news-detail__box-img-name {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: #fff;
+}
+.news-detail__text {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: rgba(35, 31, 32, 0.80);
+}
+.news-detail__block {
+    margin-bottom: 4rem;
+    padding: 4rem;
+    border-radius: 12px;
+    background:  rgba(57, 116, 121, 0.10);
+}
+.news-detail__card {
+    display: flex;
+    justify-content: center;
+}
+.news-detail__card-img{
+   
+}
+.news-detail__img img{
+    margin-bottom: 4rem;
+    width: 100%;
+}
+.news-detail__info {
+    width: 21.6rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news-detail__info-title {
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.news-detail__info-subtitle {
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    color: rgba(35, 31, 32, 0.60);
+}
+.news-detail__info-price--new {
+    margin-bottom: .5rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.news-detail__info-price--old {
+    margin-bottom: 1.2rem;
+    font-size: 2.4rem;
+    color: #C64070;
+    text-decoration: line-through;
+}
+.news-detail__info-btn{
+    width: 100%;
+    height: 5.2rem;
+    padding-right: 5rem;
+    line-height: 5.2rem;
+}
+.news-detail__info-btn::before{
+    position: absolute;
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    background: url('../images/icon/card-basket.svg') no-repeat;
+    left: 60px;
+    top: 12px;
+}
+.news-detail__subtitle {
+}
+.news-detail__img {
+}
+.news-theme {
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+}

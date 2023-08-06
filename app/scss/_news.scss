@@ -1,0 +1,108 @@
+.news{
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
+.news__title {
+    margin-bottom: 4rem;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+.news-block {
+    margin-bottom: 7.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 2rem;
+    row-gap: 7rem;
+}
+.news-block__item {
+    width: 31.5%;
+}
+.news-block__item--big img,
+.news-block__item--big{
+   min-width: 77.5rem;
+   height: 30.6rem;
+   border-radius: 2rem;
+}
+.news-block__item-img {
+    margin-bottom: 2.4rem;
+}
+.news-block__item-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.news-block__item-title {
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.news-block__item-text {
+    margin-bottom: 2.4rem;
+    color: rgba(35, 31, 32, 0.80);
+}
+.news-block__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.news-block__bottom-date {
+    font-size: 1.4rem;
+    color: rgba(35, 31, 32, 0.40);
+}
+.news-block__bottom-link {
+    font-weight: 500;
+    color: #397479;
+}
+.pagination {
+    width: 16rem;
+    margin-left: auto;
+}
+.pagination__list {
+    position: relative;
+    display: flex;
+    column-gap: 1rem;
+}
+.pagination__list-item:first-child,
+.pagination__list-item:last-child{
+    position: relative;
+}
+.pagination__list-item:first-child::before,
+.pagination__list-item:last-child::after{
+    position: absolute;
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    top: 0;
+}
+.pagination__list-item:first-child::before{
+    background: url('../images/icon/left-pagination.svg') no-repeat;
+    left: -25px;
+}
+.pagination__list-item:last-child::after{
+    background: url('../images/icon/right-pagination.svg') no-repeat;
+}
+// .pagination__list::before,
+// .pagination__list::after{
+//     position: absolute;
+//     content: '';
+//     width: 2rem;
+//     height: 2rem;
+//     top: 0;
+// }
+// .pagination__list::before{
+//     background: url('../images/icon/left-pagination.svg') no-repeat;
+//     left: -30px;
+// }
+// .pagination__list::after{
+//     background: url('../images/icon/right-pagination.svg') no-repeat;
+//     right: 7px;
+// }
+
+.pagination__list-link {
+    font-size: 1.4rem;
+}
+.pagination__list-link--active{
+    border-radius: 6px;
+    background: rgba(57, 116, 121, 0.10);
+    color: #397479;
+    padding: .3rem .8rem;
+}

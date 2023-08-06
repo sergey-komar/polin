@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<header class="header">
+    <div class=" header__wrapper">
+        <div class="container">
+        <div class="header__top">
+            <div class="header__top-sity">
+            Выбрать город: Москва
+            <div class="sity-modal">
+                <div class="sity-modal__title">Ваш город Москва?</div>
+                <div class="sity-modal__text">От выбранного города зависят способы доставки.</div>
+                <div class="sity-modal__inner">
+                <div class="sity-modal__btn">Нет, изменить</div>
+                <div class="sity-modal__btn sity-modal__btn-active">Да, я здесь</div>
+                </div>
+            </div>
+            </div>
+
+            <a href="tel:+79991234455" class="header__top-phone">+7 999 123 44 55</a>
+        </div>
+    
+        <div class="header__center">
+            <a href="#" class="logo">
+            <img src="./images/icon/lofo.svg" alt="img">
+            </a>
+            <div class="header__center-catalog">
+            <div class="header__center-catalog--btn"></div>
+                Каталог
+            </div>
+    
+            <form action="#" class="header-form">
+            <div class="header-form__wrapper">
+                <button class="header-form-btn"></button>
+                <input type="text" class="header-form-input" placeholder="Найти книгу....">
+            </div>
+            </form>
+    
+            <a href="#" class="header__center-basket">
+            <img src="./images/icon/basket.svg" alt="img">
+            <span>10</span>
+            </a>
+        </div>
+        </div>
+    </div>
+    <div class="menu__wrapper">
+        <div class="container">
+        <nav class="menu">
+            <ul class="menu__list">
+            <li class="menu__list-item">
+                <a href="./index.html" class="menu__list-link">Новинки</a>
+            </li>
+            <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Бестселлеры</a>
+            </li>
+            <li class="menu__list-item">
+                <a href="./news-detail.html" class="menu__list-link">Авторам</a>
+            </li>
+            <li class="menu__list-item">
+                <a href="./about.html" class="menu__list-link">О нас</a>
+            </li>
+            <li class="menu__list-item">
+                <a href="./news.html" class="menu__list-link">СМИ и блогерам</a>
+            </li>
+            </ul>
+        </nav>
+            <div class="sub-menu__wrapper">
+            <ul class="sub-menu">
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    
+</header>
+
+<main class="main">
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__list-item">
+                    <a href="#" class="breadcrumbs__list-link">Книги</a>
+                </li>
+                <li class="breadcrumbs__list-item">
+                    <a href="#" class="breadcrumbs__list-link">Художественная литература</a>
+                </li>
+                <li class="breadcrumbs__list-item">
+                    <a href="#" class="breadcrumbs__list-link">Фэнтези</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="product">
+        <div class="container">
+            <div class="product-block">
+                <div class="product-slider">
+                    <div class="product-slider__thumb">
+                        <div class="product-slider__thumb-item">
+                            <img src="./images/product-thumb-1.jpg" alt="img">
+                        </div>
+                        <div class="product-slider__thumb-item">
+                            <img src="./images/product-thumb.jpg" alt="img">
+                        </div>
+                        <div class="product-slider__thumb-item">
+                            <img src="./images/product-thumb-1.jpg" alt="img">
+                        </div>
+                        <div class="product-slider__thumb-item">
+                            <img src="./images/product-thumb.jpg" alt="img">
+                        </div>
+                    </div>
+
+                    <div class="product-slider__big">
+                        <div class="product-slider__big-img">
+                            <img src="./images/product-big-1.jpg" alt="img">
+                            <span class="product-slider__thumb-item--sale">25%</span>
+                            <span class="product-slider__thumb-item--novelties">Новинка</span>
+                        </div>
+                        <div class="product-slider__big-img">
+                            <img src="./images/product-big.jpg" alt="img">
+                            <span class="product-slider__thumb-item--sale">25%</span>
+                            <span class="product-slider__thumb-item--novelties">Новинка</span>
+                        </div>
+                        <div class="product-slider__big-img">
+                            <img src="./images/product-big-1.jpg" alt="img">
+                            <span class="product-slider__thumb-item--sale">25%</span>
+                            <span class="product-slider__thumb-item--novelties">Новинка</span>
+                        </div>
+                        <div class="product-slider__big-img">
+                            <img src="./images/product-big.jpg" alt="img">
+                            <span class="product-slider__thumb-item--sale">25%</span>
+                            <span class="product-slider__thumb-item--novelties">Новинка</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-desc">
+                    <h1 class="product-desc__title">Ковен озера Шамплейн. Трилогия</h1>
+                    <div class="product-desc__author">Анастасия Гор</div>
+                    <div class="product-desc__button">
+                        <button class="product-desc__btn product-desc__btn--book">Книга</button>
+                        <button class="product-desc__btn product-desc__btn--author">Книга с автографом</button>
+                    </div>
+                    <div class="product-desc__item">
+                        <div class="product-desc__item-name">Серия</div>
+                        <div class="product-desc__item-title product-desc__item-title--color">Хиты Young Adult. Коллекция</div>
+                    </div>
+                    <div class="product-desc__item">
+                        <div class="product-desc__item-name">Жанр</div>
+                        <div class="product-desc__item-title product-desc__item-title--color">Фэнтези</div>
+                    </div>
+                    <div class="product-desc__item">
+                        <div class="product-desc__item-name">Иллюстрации/дизайн</div>
+                        <div class="product-desc__item-title">Кори Брикли</div>
+                    </div>
+                    <div class="product-desc__item">
+                        <div class="product-desc__item-name">ISBN</div>
+                        <div class="product-desc__item-title">989-8-99690505-9-9</div>
+                    </div>
+                    <div class="product-desc__item">
+                        <div class="product-desc__item-name">Переплет</div>
+                        <div class="product-desc__item-title">Мягкий</div>
+                    </div>
+                    <div class="product-desc__item">
+                        <div class="product-desc__item-name">Количество страниц</div>
+                        <div class="product-desc__item-title">1152</div>
+                    </div>
+                    <div class="product-desc__item">
+                        <div class="product-desc__item-name">Возрастные ограничения </div>
+                        <div class="product-desc__item-title">18+</div>
+                    </div>
+                   
+                    
+                </div>
+                <div class="product-info">
+                    <div class="product-info__inner">
+                        <div class="product-info__price">
+                            <div class="product-info__price-new">2550 ₽</div>
+                            <div class="product-info__price-old">700 ₽</div>
+                            <button class="product-info__price-sale">Скидка 25 % </button>
+                        </div>
+                        <div class="product-info__availability">
+                            В наличии 5 штук
+                        </div>
+                        <a href="#" class="product-info__btn">В корзину</a>
+                        <div class="product-info__delivery">
+                            Вам доступна бесплатная<br> доставка!
+                        </div>
+                    </div>
+                    <a href="#" class="product-info__link product-info__link--pdf">
+                        Скачать ознакомительный фрагмент
+                    </a>
+                    <a href="#" class="product-info__link product-info__link-nausniki">
+                        Слушать фрагмент
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-tabs">
+                <div class="product-tabs__item">
+                    <button class="product-tabs__item-btn">О книге</button>
+                    <button class="product-tabs__item-btn">Отзывы(21)</button>
+                </div>
+
+                <div class="product-tabs__content">
+                    <div class="product-tabs__content-text">
+                        Одри Дефо привыкла бежать. Ее семья убита, родной брат — худший из кошмаров. Потомственная ведьма, Верховная вырезанного ковена, Одри вынуждена воровать, чтобы выжить.Руны, подсказывающие дорогу, приводят ее в Берлингтон, где страшные убийства расследует скромный капитан Коул Гастингс. В убийствах явно заметен след магии, и Одри не может остаться в стороне. Что ждет Верховную — величие или забвение? Главы других ковенов не оставят ее возвращение в родные края без внимания. 
+                    </div>
+                    <div class="product-tabs__content-text">
+                        Ведьмовская трилогия Анастасии Гор теперь под одной обложкой в уникальном подарочном издании.Издание дополнено историями про героев трилогии, написанными автором специально для подарочного тома.Обложка, цветные иллюстрации и уникальное оформление страниц от художницы Елены Кононенко (Elle). Все иллюстрации отрисованы вручную и после оцифрованы.
+                    </div>
+                    <div class="product-tabs__content-text">
+                        Познакомьтесь с ведьмами и колдунами ковена Шамплейн, коварной речной девой, демоническим котом и даже самим бароном Субботой, покровителем вуду.
+                    </div>
+
+                    <div class="product-tabs__inner">
+                        <div class="product-tabs__inner-title">Пять причин прочитать книгу</div>
+                        <ui class="product-tabs__list">
+                            <li class="product-tabs__list-item">
+                                Любимая сказка Аксакова в театральных декорациях книги-представления.
+                            </li>
+                            <li class="product-tabs__list-item">
+                                Три многослойные картины-панорамы как сцены чудесного спектакля: огни магического замка в дремучем лесу, волшебные катания на колесницах без коней и драматичное превращение чудища в красавца писаного.
+                            </li>
+                            <li class="product-tabs__list-item">
+                                Издание дополнено историями про героев трилогии, написанными автором специально для подарочного тома.
+                            </li>
+                            <li class="product-tabs__list-item">
+                                Обложка, цветные иллюстрации и уникальное оформление страниц от художницы Елены Кононенко (Elle).
+                            </li>
+                            <li class="product-tabs__list-item">
+                                Все иллюстрации отрисованы вручную и после оцифрованы.
+                            </li>
+                        </ui>
+                    </div>
+                </div>
+                <div class="product-tabs__content">
+                    <div class="product-tabs__reviews">
+                        <div class="product-tabs__item-reviews">
+                            <div class="product-tabs__item-title">bibliologinya</div>
+                            <div class="product-tabs__item-text">
+                                Бывает часто так, что когда наши авторы пишут в американском сеттинге, чаще всего получается ерунда полная. Но это не про этот роман. Сюжет довольно занимательный на самом деле и наблюдать за развитием детективной линии и отношений между героями интересно. Кроме того, меня порадовало обилие проработанных персонажей и атмосфера у романа тоже присутствует. Если вы хотите почитать что-то в духе Ривердейла, Сабрины, Американской истории ужасов (Шабаш), Волшебников, то вам сюда. По ходу прочтения я постоянно хотела слушать "Seven wonders" Fleetwood Mac и все песни подряд у Florence and the Machine. Здоровые отношения между главными героями - это отдельный лайк автору.
+                            </div>
+                        </div>
+                        <div class="product-tabs__item-reviews">
+                            <div class="product-tabs__item-title">bibliologinya</div>
+                            <div class="product-tabs__item-text">
+                                Бывает часто так, что когда наши авторы пишут в американском сеттинге, чаще всего получается ерунда полная. Но это не про этот роман. Сюжет довольно занимательный на самом деле и наблюдать за развитием детективной линии и отношений между героями интересно. Кроме того, меня порадовало обилие проработанных персонажей и атмосфера у романа тоже присутствует. Если вы хотите почитать что-то в духе Ривердейла, Сабрины, Американской истории ужасов (Шабаш), Волшебников, то вам сюда. По ходу прочтения я постоянно хотела слушать "Seven wonders" Fleetwood Mac и все песни подряд у Florence and the Machine. Здоровые отношения между главными героями - это отдельный лайк автору.
+                            </div>
+                        </div>
+                        <div class="product-tabs__item-reviews">
+                            <div class="product-tabs__item-title">bibliologinya</div>
+                            <div class="product-tabs__item-text">
+                                Бывает часто так, что когда наши авторы пишут в американском сеттинге, чаще всего получается ерунда полная. Но это не про этот роман. Сюжет довольно занимательный на самом деле и наблюдать за развитием детективной линии и отношений между героями интересно. Кроме того, меня порадовало обилие проработанных персонажей и атмосфера у романа тоже присутствует. Если вы хотите почитать что-то в духе Ривердейла, Сабрины, Американской истории ужасов (Шабаш), Волшебников, то вам сюда. По ходу прочтения я постоянно хотела слушать "Seven wonders" Fleetwood Mac и все песни подряд у Florence and the Machine. Здоровые отношения между главными героями - это отдельный лайк автору.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="product-upsels card">
+                <div class="container">
+                  <div class="card-top">
+                    <h2 class="card__title">Так же может понравится</h2>
+                    <div class="product-upsels__arrows">
+                      <div class="card-top__arrows-left"></div>
+                      <div class="card-top__arrows-right"></div>
+                    </div>
+                  </div>
+                 
+                  <div class="card-block">
+                    <div class="product-upsels-slider">
+                      <div class="card-block__wrapper">
+                        <div class="card-block__item">
+                          <div class="card-block__item-img">
+                            <img src="./images/home/home-merch.jpg" alt="img">
+                          </div>
+                          <div class="card-block__item-title">Шоппер</div>
+                          <p class="card-block__item-text">Название серии</p>
+                          <div class="card-block__bottom">
+                            <div class="card-block__bottom-price">
+                              <span class="card-block__bottom-price--new">234₽</span>
+                              <span class="card-block__bottom-price--old">600 ₽</span>
+                            </div>
+                            <a href="#" class="card-block__bottom-basket">В корзину</a>
+                          </div>
+                          <span class="card-block__item-sale">25%</span>
+                          <span class="card-block__item-novelties">Новинки</span>
+                        </div>
+                      </div>
+                      
+                      <div class="card-block__wrapper">
+                        <div class="card-block__item">
+                          <div class="card-block__item-img">
+                            <img src="./images/home/home-merch.jpg" alt="img">
+                          </div>
+                          <div class="card-block__item-title">Шоппер</div>
+                          <p class="card-block__item-text">Название серии</p>
+                          <div class="card-block__bottom">
+                            <div class="card-block__bottom-price">
+                              <span class="card-block__bottom-price--new">234₽</span>
+                              <span class="card-block__bottom-price--old">600 ₽</span>
+                            </div>
+                            <a href="#" class="card-block__bottom-basket">В корзину</a>
+                          </div>
+                          <span class="card-block__item-novelties">Новинки</span>
+                        </div>
+                      </div>
+        
+                      <div class="card-block__wrapper">
+                        <div class="card-block__item">
+                          <div class="card-block__item-img">
+                            <img src="./images/home/home-merch.jpg" alt="img">
+                          </div>
+                          <div class="card-block__item-title">Шоппер</div>
+                          <p class="card-block__item-text">Название серии</p>
+                          <div class="card-block__bottom">
+                            <div class="card-block__bottom-price">
+                              <span class="card-block__bottom-price--new">234₽</span>
+                              <span class="card-block__bottom-price--old">600 ₽</span>
+                            </div>
+                            <a href="#" class="card-block__bottom-basket">В корзину</a>
+                          </div>
+                          <span class="card-block__item-sale">25%</span>
+                        </div>
+                      </div>
+        
+                      <div class="card-block__wrapper">
+                        <div class="card-block__item">
+                          <div class="card-block__item-img">
+                            <img src="./images/home/home-merch.jpg" alt="img">
+                          </div>
+                          <div class="card-block__item-title">Шоппер</div>
+                          <p class="card-block__item-text">Название серии</p>
+                          <div class="card-block__bottom">
+                            <div class="card-block__bottom-price">
+                              <span class="card-block__bottom-price--new">234₽</span>
+                              <span class="card-block__bottom-price--old">600 ₽</span>
+                            </div>
+                            <a href="#" class="card-block__bottom-basket">В корзину</a>
+                          </div>
+                          <span class="card-block__item-sale">25%</span>
+                        </div>
+                      </div>
+        
+                      <div class="card-block__wrapper">
+                        <div class="card-block__item">
+                          <div class="card-block__item-img">
+                            <img src="./images/home/home-merch.jpg" alt="img">
+                          </div>
+                          <div class="card-block__item-title">Шоппер</div>
+                          <p class="card-block__item-text">Название серии</p>
+                          <div class="card-block__bottom">
+                            <div class="card-block__bottom-price">
+                              <span class="card-block__bottom-price--new">234₽</span>
+                              <span class="card-block__bottom-price--old">600 ₽</span>
+                            </div>
+                            <a href="#" class="card-block__bottom-basket">В корзину</a>
+                          </div>
+                          <span class="card-block__item-sale">25%</span>
+                        </div>
+                      </div>
+        
+                      <div class="card-block__wrapper">
+                        <div class="card-block__item">
+                          <div class="card-block__item-img">
+                            <img src="./images/home/home-merch.jpg" alt="img">
+                          </div>
+                          <div class="card-block__item-title">Шоппер</div>
+                          <p class="card-block__item-text">Название серии</p>
+                          <div class="card-block__bottom">
+                            <div class="card-block__bottom-price">
+                              <span class="card-block__bottom-price--new">234₽</span>
+                              <span class="card-block__bottom-price--old">600 ₽</span>
+                            </div>
+                            <a href="#" class="card-block__bottom-basket">В корзину</a>
+                          </div>
+                          <span class="card-block__item-sale">25%</span>
+                        </div>
+                      </div>
+        
+                    </div>
+                  
+                  </div>
+                </div>
+            </section>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="#" class="logo">
+          <img src="./images/icon/lofo.svg" alt="">
+        </a>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Новинки</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Бестселлеры</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Серии</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Авторам</a>
+          </li>
+        </ul>
+
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">О нас</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">СМИ и блогерам</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Оплата и доставка</a>
+          </li>
+        </ul>
+        <div class="footer__content">
+          <div class="footer__content-address">
+            999123, Здесь будет адрес вашего издательства
+          </div>
+          <a href="#" class="footer__content-phone">+7 999 123 44 55</a>
+          <a href="" class="footer__content-email">Polynmail.com</a>
+          <div class="footer__content-social">
+            <a href="#" class="footer__content-social-link">
+              <img src="./images/icon/telegram.svg" alt="img">
+            </a>
+            <a href="#" class="footer__content-social-link">
+              <img src="./images/icon/vk.svg" alt="img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<script src="js/main.min.js"></script>
+</body>
+</html>

@@ -8,8 +8,8 @@
     display: flex;
 }
 .footer__list {
-    width: 16rem;
-    margin-left: 7rem;
+    width: 15rem;
+    margin-left: 6rem;
 }
 .footer__list-item {
    
@@ -66,3 +66,28 @@
     column-gap: 2rem;
     margin-left: -3.5rem;
 }
+
+
+.btnUp{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    background: #397479;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    right: 20px;
+    bottom: 250px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 3rem;
+    /* display: none; */
+    opacity: 0;
+    transition: opacity .5s;
+    pointer-events: none;
+  }
+  .btnUp-visible{
+    /* display: block; */
+    opacity: 1;
+    pointer-events: auto;
+  }

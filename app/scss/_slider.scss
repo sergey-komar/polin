@@ -5,7 +5,11 @@
 .slick-prev-merch,
 .slick-next-merch,
 .slick-prev-home-news,
-.slick-next-home-news{
+.slick-next-home-news,
+.slick-prev-product-upsels,
+.slick-next-product-upsels,
+.slick-prev-news-theme,
+.slick-next-news-theme{
     padding: 0;
     font-size: 0;
     border: 0;
@@ -21,7 +25,11 @@
 .slick-prev-merch::before,
 .slick-next-merch::before,
 .slick-prev-home-news::before,
-.slick-next-home-news::before{
+.slick-next-home-news::before,
+.slick-prev-product-upsels::before,
+.slick-next-product-upsels::before,
+.slick-prev-news-theme::before,
+.slick-next-news-theme::before{
     position: absolute;
     content: '';
     width: 5rem;
@@ -31,19 +39,25 @@
 .slick-prev::before,
 .slick-prev-bestsellers::before,
 .slick-prev-merch::before,
-.slick-prev-home-news::before{
+.slick-prev-home-news::before,
+.slick-prev-product-upsels::before,
+.slick-prev-news-theme::before{
     background: url('../images/home/qrrows-left.png') no-repeat;
 }
 .slick-next::before,
 .slick-next-bestsellers::before,
 .slick-next-merch::before,
-.slick-next-home-news::before{
+.slick-next-home-news::before,
+.slick-next-product-upsels::before,
+.slick-next-news-theme::before{
     background: url('../images/home/arrows-right.png') no-repeat;
 }
 .card-top__arrows,
 .bestsellers-top__arrows,
 .merch-top__arrows,
-.home-news__top-arrows{
+.home-news__top-arrows,
+.product-upsels__arrows,
+.news-theme__arrows{
     display: flex;
     margin-right: 6rem;
     column-gap: 1.5rem;
