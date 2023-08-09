@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+        <div class=" header__wrapper">
+          <div class="container">
+            <div class="header__top">
+              <div class="header__top-sity">
+                Выбрать город: Москва
+                <div class="sity-modal">
+                  <div class="sity-modal__title">Ваш город Москва?</div>
+                  <div class="sity-modal__text">От выбранного города зависят способы доставки.</div>
+                  <div class="sity-modal__inner">
+                    <div class="sity-modal__btn">Нет, изменить</div>
+                    <div class="sity-modal__btn sity-modal__btn-active">Да, я здесь</div>
+                  </div>
+                </div>
+              </div>
+  
+              <a href="tel:+79991234455" class="header__top-phone">+7 999 123 44 55</a>
+            </div>
+      
+            <div class="header__center">
+              <a href="#" class="logo">
+                <img src="./images/icon/lofo.svg" alt="img">
+              </a>
+              <div class="header__center-catalog">
+                <div class="header__center-catalog--btn"></div>
+                 Каталог
+              </div>
+      
+              <form action="#" class="header-form">
+                <div class="header-form__wrapper">
+                  <button class="header-form-btn"></button>
+                  <input type="text" class="header-form-input" placeholder="Найти книгу....">
+                </div>
+              </form>
+      
+              <a href="#" class="header__center-basket">
+                <img src="./images/icon/basket.svg" alt="img">
+                <span>10</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="menu__wrapper">
+          <div class="container">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="./index.html" class="menu__list-link">Новинки</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="./product.html" class="menu__list-link">Бестселлеры</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="./news-detail.html" class="menu__list-link">Авторам</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="./about.html" class="menu__list-link">О нас</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="./news.html" class="menu__list-link">СМИ и блогерам</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="./search.html" class="menu__list-link">Search</a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="#" class="menu__list-link">Корзина</a>
+                  </li>
+              </ul>
+            </nav>
+              <div class="sub-menu__wrapper">
+                <ul class="sub-menu">
+                    <li><a href="#">Бестселлеры</a></li>
+                    <li><a href="#">Бестселлеры</a></li>
+                    <li><a href="#">Бестселлеры</a></li>
+                    <li><a href="#">Бестселлеры</a></li>
+                    <li><a href="#">Бестселлеры</a></li>
+                    <li><a href="#">Детективное фэнтези</a></li>
+                    <li><a href="#">Детективное фэнтези</a></li>
+                    <li><a href="#">Детективное фэнтези</a></li>
+                    <li><a href="#">Детективное фэнтези</a></li>
+                    <li><a href="#">Детективное фэнтези</a></li>
+                    <li><a href="#">Магический реализм</a></li>
+                    <li><a href="#">Магический реализм</a></li>
+                    <li><a href="#">Магический реализм</a></li>
+                    <li><a href="#">Магический реализм</a></li>
+                    <li><a href="#">Магический реализм</a></li>
+                    <li><a href="#">Магический реализм</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+       
+</header>
+<link rel="stylesheet" href="css/style.min.css">
+<main class="main">
+<section class="cart">
+    <div class="container">
+        <h1 class="cart__title">Корзина(11)</h1>
+        <a href="#" class="cart__delete">Удалить выбранное</a>
+        <form  class="form-cart">
+           <div class="form-cart__left">
+                <div class="form-cart__item">
+                        <label>
+                            <input type="checkbox" class="form-cart__item-input">
+                            <span class="form-cart__item-checkbox"></span>
+                        </label> 
+                        <a href="#" class="form-cart__item-img">
+                            <img src="./images/card-img.png" alt="img">
+                        </a>
+                        <div class="form-cart__box">
+                            <div class="form-cart__box-title">Ковен озера Шамплейн. Трилогия</div>
+                            <div class="form-cart__box-subtitle">Анастасия Гор</div>
+                            <a href="#" class="form-cart__box-link">Удалить из корзины</a>
+                        </div>
+                        <div class="pro-qty">
+                            <a href="#" class="dec qty-btn">
+                                <img src="./images/Minus.jpg" alt="img">
+                            </a>
+                            <input type="text" class="quantity" value="1"/>
+                            <a href="" class="inc qty-btn">
+                                <img src="./images/Plus.jpg" alt="img">
+                            </a>
+                        </div>
+                        <div class="form-cart__item-price">
+                            <a href="" class="form-cart__item-price--new">450 ₽</a>
+                            <a href="" class="form-cart__item-price--old">600 ₽</a>
+                        </div>
+                      
+                </div>
+                   
+                <div class="form-cart__item">
+                    <label>
+                        <input type="checkbox" class="form-cart__item-input">
+                        <span class="form-cart__item-checkbox"></span>
+                    </label> 
+                    <a href="#" class="form-cart__item-img">
+                        <img src="./images/card-img.png" alt="img">
+                    </a>
+                    <div class="form-cart__box">
+                        <div class="form-cart__box-title">Ковен озера Шамплейн. Трилогия</div>
+                        <div class="form-cart__box-subtitle">Анастасия Гор</div>
+                        <a href="#" class="form-cart__box-link">Удалить из корзины</a>
+                    </div>
+                    <div class="pro-qty">
+                        <a href="#" class="dec qty-btn">
+                            <img src="./images/Minus.jpg" alt="img">
+                        </a>
+                        <input type="text" class="quantity" value="1"/>
+                        <a href="" class="inc qty-btn">
+                            <img src="./images/Plus.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="form-cart__item-price">
+                        <a href="" class="form-cart__item-price--new">450 ₽</a>
+                        <a href="" class="form-cart__item-price--old">600 ₽</a>
+                    </div>
+                  
+                </div> 
+                
+                <div class="form-cart__item">
+                    <label>
+                        <input type="checkbox" class="form-cart__item-input">
+                        <span class="form-cart__item-checkbox"></span>
+                    </label> 
+                    <a href="#" class="form-cart__item-img">
+                        <img src="./images/card-img.png" alt="img">
+                    </a>
+                    <div class="form-cart__box">
+                        <div class="form-cart__box-title">Ковен озера Шамплейн. Трилогия</div>
+                        <div class="form-cart__box-subtitle">Анастасия Гор</div>
+                        <a href="#" class="form-cart__box-link">Удалить из корзины</a>
+                    </div>
+                    <div class="pro-qty">
+                        <a href="#" class="dec qty-btn">
+                            <img src="./images/Minus.jpg" alt="img">
+                        </a>
+                        <input type="text" class="quantity" value="1"/>
+                        <a href="" class="inc qty-btn">
+                            <img src="./images/Plus.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="form-cart__item-price">
+                        <a href="" class="form-cart__item-price--new">450 ₽</a>
+                        <a href="" class="form-cart__item-price--old">600 ₽</a>
+                    </div>
+                  
+                </div>
+                       
+                <div class="form-cart__item">
+                    <label>
+                        <input type="checkbox" class="form-cart__item-input">
+                        <span class="form-cart__item-checkbox"></span>
+                    </label> 
+                    <a href="#" class="form-cart__item-img">
+                        <img src="./images/card-img.png" alt="img">
+                    </a>
+                    <div class="form-cart__box">
+                        <div class="form-cart__box-title">Ковен озера Шамплейн. Трилогия</div>
+                        <div class="form-cart__box-subtitle">Анастасия Гор</div>
+                        <a href="#" class="form-cart__box-link">Удалить из корзины</a>
+                    </div>
+                    <div class="pro-qty">
+                        <a href="#" class="dec qty-btn">
+                            <img src="./images/Minus.jpg" alt="img">
+                        </a>
+                        <input type="text" class="quantity" value="1"/>
+                        <a href="" class="inc qty-btn">
+                            <img src="./images/Plus.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="form-cart__item-price">
+                        <a href="" class="form-cart__item-price--new">450 ₽</a>
+                        <a href="" class="form-cart__item-price--old">600 ₽</a>
+                    </div>
+                  
+                </div>
+           </div>
+           <div class="form-cart__rigth">
+            <div class="form-cart__promocode-title">Применить промокод</div>
+            <div class="form-cart__promocode">
+                <input type="text" class="form-cart__promocode-input" placeholder="Введите промокод">
+                <button class="form-cart__promocode-btn">Применить</button>
+            </div>
+            <div class="card-order">
+                <div class="card-order__inner">
+                   <div class="card-order__item">
+                    <div class="card-order__item-title">Товары(1)</div>
+                    <div class="card-order__item-price">450 ₽</div>
+                   </div>
+                   <div class="card-order__item">
+                    <div class="card-order__item-title">Скидка</div>
+                    <div class="card-order__item-price card-order__item-price--sale">-150 ₽</div>
+                   </div>
+                   <div class="card-order__btn">Оформить заказ</div>
+                   <div class="card-order__deliver">До бесплатной доставки осталось добавить 2000 ₽</div>
+                </div>
+               
+            </div>
+           </div>
+        </form>
+
+        <div class="news-theme card">
+            <div class="container">
+              <div class="card-top">
+                <h2 class="card__title">Недавно просмотренные</h2>
+                <div class="news-theme__arrows">
+                  <div class="card-top__arrows-left"></div>
+                  <div class="card-top__arrows-right"></div>
+                </div>
+              </div>
+             
+              <div class="card-block">
+                <div class="news-theme-slider">
+                  <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Шоппер</div>
+                      <p class="card-block__item-text">Название серии</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                  </div>
+                  
+                  <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Шоппер</div>
+                      <p class="card-block__item-text">Название серии</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                  </div>
+    
+                  <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Шоппер</div>
+                      <p class="card-block__item-text">Название серии</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                    </div>
+                  </div>
+    
+                  <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Шоппер</div>
+                      <p class="card-block__item-text">Название серии</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                    </div>
+                  </div>
+    
+                  <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Шоппер</div>
+                      <p class="card-block__item-text">Название серии</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                    </div>
+                  </div>
+    
+                  <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Шоппер</div>
+                      <p class="card-block__item-text">Название серии</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                    </div>
+                  </div>
+    
+                </div>
+              
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main> 
+
+<footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="#" class="logo">
+          <img src="./images/icon/lofo.svg" alt="">
+        </a>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Новинки</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Бестселлеры</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Серии</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Авторам</a>
+          </li>
+        </ul>
+
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">О нас</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">СМИ и блогерам</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Оплата и доставка</a>
+          </li>
+        </ul>
+        <div class="footer__content">
+          <div class="footer__content-address">
+            999123, Здесь будет адрес вашего издательства
+          </div>
+          <a href="#" class="footer__content-phone">+7 999 123 44 55</a>
+          <a href="" class="footer__content-email">Polynmail.com</a>
+          <div class="footer__content-social">
+            <a href="#" class="footer__content-social-link">
+              <img src="./images/icon/telegram.svg" alt="img">
+            </a>
+            <a href="#" class="footer__content-social-link">
+              <img src="./images/icon/vk.svg" alt="img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<script src="js/main.min.js"></script>
+</body>
+</html>

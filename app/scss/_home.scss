@@ -92,7 +92,9 @@
 .mailing{
     padding-top: 11.5rem;
     padding-bottom: 11.5rem;
-    background: linear-gradient(153deg, #397479 0%, #699C9B 100%);
+    // background: linear-gradient(153deg, #397479 0%, #699C9B 100%);
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
 }
 .mailing-block {
     display: flex;

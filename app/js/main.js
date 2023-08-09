@@ -75,6 +75,25 @@ $(function () {
         arrows: false,
         fade: true
     })
+
+
+
+    $('.qty-btn').on('click', function (e) {
+        e.preventDefault();
+        var $button = $(this);
+        var oldValue = $button.parent().find('input').val();
+        if ($button.hasClass('inc')) {
+                var newVal = parseFloat(oldValue) + 1;
+        } else {
+                // Don't allow decrementing below zero
+                if (oldValue > 0) {
+                        var newVal = parseFloat(oldValue) - 1;
+                } else {
+                        newVal = 0;
+                }
+        }
+        $button.parent().find('input').val(newVal);
+});
 });
 
 
@@ -149,21 +168,30 @@ if(tabsItem && tabsItenBtn && tabsContent){
 //btn
 const novelties = document.querySelector('.novelties');
 const btn = document.querySelector('.btnUp');
-document.addEventListener('scroll', () => {
-    if(scrollY > novelties.offsetHeight){
-        btn.classList.add('btnUp-visible');
-    }else{
-        btn.classList.remove('btnUp-visible');
-    }
-    
-});
-btn.addEventListener('click', ()=>{
-    window.scrollTo({
-      top: 0, 
-      behavior: 'smooth' 
-  
+
+if(document){
+    document.addEventListener('scroll', () => {
+        if(scrollY > novelties.offsetHeight){
+            btn.classList.add('btnUp-visible');
+        }else{
+            btn.classList.remove('btnUp-visible');
+        }
+        
     });
-  });
+}
+
+
+
+if(btn){
+    btn.addEventListener('click', ()=>{
+        window.scrollTo({
+          top: 0, 
+          behavior: 'smooth' 
+      
+        });
+      });
+}
+
 // const btn = document.querySelector('.btnUp');
 // function up() {
 //   window.addEventListener('scroll', () => {

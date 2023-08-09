@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<header class="header">
+      <div class=" header__wrapper">
+        <div class="container">
+          <div class="header__top">
+            <div class="header__top-sity">
+              Выбрать город: Москва
+              <div class="sity-modal">
+                <div class="sity-modal__title">Ваш город Москва?</div>
+                <div class="sity-modal__text">От выбранного города зависят способы доставки.</div>
+                <div class="sity-modal__inner">
+                  <div class="sity-modal__btn">Нет, изменить</div>
+                  <div class="sity-modal__btn sity-modal__btn-active">Да, я здесь</div>
+                </div>
+              </div>
+            </div>
+
+            <a href="tel:+79991234455" class="header__top-phone">+7 999 123 44 55</a>
+          </div>
+    
+          <div class="header__center">
+            <a href="#" class="logo">
+              <img src="./images/icon/lofo.svg" alt="img">
+            </a>
+            <div class="header__center-catalog">
+              <div class="header__center-catalog--btn"></div>
+               Каталог
+            </div>
+    
+            <form action="#" class="header-form">
+              <div class="header-form__wrapper">
+                <button class="header-form-btn"></button>
+                <input type="text" class="header-form-input" placeholder="Найти книгу....">
+              </div>
+            </form>
+    
+            <a href="#" class="header__center-basket">
+              <img src="./images/icon/basket.svg" alt="img">
+              <span>10</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="menu__wrapper">
+        <div class="container">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="./index.html" class="menu__list-link">Новинки</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="./product.html" class="menu__list-link">Бестселлеры</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="./news-detail.html" class="menu__list-link">Авторам</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="./about.html" class="menu__list-link">О нас</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="./news.html" class="menu__list-link">СМИ и блогерам</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="menu__list-link">Search</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="./card.html" class="menu__list-link">Корзина</a>
+              </li>
+            </ul>
+          </nav>
+            <div class="sub-menu__wrapper">
+              <ul class="sub-menu">
+                  <li><a href="#">Бестселлеры</a></li>
+                  <li><a href="#">Бестселлеры</a></li>
+                  <li><a href="#">Бестселлеры</a></li>
+                  <li><a href="#">Бестселлеры</a></li>
+                  <li><a href="#">Бестселлеры</a></li>
+                  <li><a href="#">Детективное фэнтези</a></li>
+                  <li><a href="#">Детективное фэнтези</a></li>
+                  <li><a href="#">Детективное фэнтези</a></li>
+                  <li><a href="#">Детективное фэнтези</a></li>
+                  <li><a href="#">Детективное фэнтези</a></li>
+                  <li><a href="#">Магический реализм</a></li>
+                  <li><a href="#">Магический реализм</a></li>
+                  <li><a href="#">Магический реализм</a></li>
+                  <li><a href="#">Магический реализм</a></li>
+                  <li><a href="#">Магический реализм</a></li>
+                  <li><a href="#">Магический реализм</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+     
+</header>
+
+<main class="main">
+    <section class="search">
+        <div class="container">
+            <div class="search__top">
+               <h1 class="search__title">
+                Результаты поиска: Анастасия Гор 19 результатов
+               </h1> 
+               <div class="search__rezult">19 результатов</div>
+            </div>
+            <div class="search__sort">
+                <button class="search__sort-btn">Сортировать по</button>
+                <ul class="search__list">
+                    <li><a class="search__list-link--active" href="#">По умолчанию</a></li>
+                    <li><a href="#">Сначала новые</a></li>
+                    <li><a href="#">Цена по убыванию</a></li>
+                    <li><a href="#">Цена по возрастанию</a></li>
+                </ul>
+            </div>
+            <div class="search-block">
+               <div class="sidebar">
+                    <form action="#" class="sidebar-form">
+                         <a href="#" class="sidebar-form__link">
+                            <label class="sidebar-form__label">
+                                <div class="sidebar-form__box">
+                                <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                                    <span class="sidebar-form__custom-checkbox"></span>
+                                </div>
+                                <div class="sidebar-form__label-text">В наличии</div>
+                            </label>
+                         </a>   
+
+                         <a href="#" class="sidebar-form__link">
+                            <label class="sidebar-form__label">
+                                <div class="sidebar-form__box">
+                                <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                                    <span class="sidebar-form__custom-checkbox"></span>
+                                </div>
+                                <div class="sidebar-form__label-text">Мерч</div>
+                            </label>
+                         </a>   
+                    </form>
+
+
+                    <div class="sidebar-form__inner">
+                        <div class="sidebar-form__inner-title">По возрасту</div>
+                        <form action="#" class="sidebar-form">
+                            <a href="#" class="sidebar-form__link">
+                               <label class="sidebar-form__label">
+                                   <div class="sidebar-form__box">
+                                   <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                                       <span class="sidebar-form__custom-checkbox"></span>
+                                   </div>
+                                   <div class="sidebar-form__label-text">18+</div>
+                               </label>
+                            </a>   
+   
+                            <a href="#" class="sidebar-form__link">
+                               <label class="sidebar-form__label">
+                                   <div class="sidebar-form__box">
+                                   <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                                       <span class="sidebar-form__custom-checkbox"></span>
+                                   </div>
+                                   <div class="sidebar-form__label-text">16+</div>
+                               </label>
+                            </a>   
+
+                            <a href="#" class="sidebar-form__link">
+                                <label class="sidebar-form__label">
+                                    <div class="sidebar-form__box">
+                                    <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                                        <span class="sidebar-form__custom-checkbox"></span>
+                                    </div>
+                                    <div class="sidebar-form__label-text">14+</div>
+                                </label>
+                             </a>   
+                       </form>
+                    </div>
+
+                    <div class="sidebar-search">
+                        <div class="sidebar-search__title">Серии</div>
+                        <form action="" class="sidebar-search__form">
+                            <input type="text" class="sidebar-search__form-input" placeholder="Название серии...">
+                        </form>
+                    </div>
+
+                    <div class="sidebar-search">
+                        <div class="sidebar-search__title">Автор</div>
+                        <form action="" class="sidebar-search__form">
+                            <input type="text" class="sidebar-search__form-input" placeholder="Имя автора...">
+                        </form>
+                    </div>
+                   
+               </div>
+               <div class="search-box">
+                <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Зов Ктулху</div>
+                      <p class="card-block__item-text">Говард Лафкрафт</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">1234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                </div>
+                <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Зов Ктулху</div>
+                      <p class="card-block__item-text">Говард Лафкрафт</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">1234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                </div>
+                <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Зов Ктулху</div>
+                      <p class="card-block__item-text">Говард Лафкрафт</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">1234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                </div>
+                <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Зов Ктулху</div>
+                      <p class="card-block__item-text">Говард Лафкрафт</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">1234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                </div>
+                <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Зов Ктулху</div>
+                      <p class="card-block__item-text">Говард Лафкрафт</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">1234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                </div>
+                <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Зов Ктулху</div>
+                      <p class="card-block__item-text">Говард Лафкрафт</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">1234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                </div>
+                <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Зов Ктулху</div>
+                      <p class="card-block__item-text">Говард Лафкрафт</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">1234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                </div>
+                <div class="card-block__wrapper">
+                    <div class="card-block__item">
+                      <div class="card-block__item-img">
+                        <img src="./images/home/home-bestsellers.jpg" alt="img">
+                      </div>
+                      <div class="card-block__item-title">Зов Ктулху</div>
+                      <p class="card-block__item-text">Говард Лафкрафт</p>
+                      <div class="card-block__bottom">
+                        <div class="card-block__bottom-price">
+                          <span class="card-block__bottom-price--new">1234₽</span>
+                          <span class="card-block__bottom-price--old">600 ₽</span>
+                        </div>
+                        <a href="#" class="card-block__bottom-basket">В корзину</a>
+                      </div>
+                      <span class="card-block__item-sale">25%</span>
+                      <span class="card-block__item-novelties">Новинки</span>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <nav class="pagination">
+                <ul class="pagination__list">
+                    <li class="pagination__list-item">
+                        <a href="#" class="pagination__list-link pagination__list-link--active">1</a>
+                    </li>
+                    <li class="pagination__list-item">
+                        <a href="#" class="pagination__list-link">2</a>
+                    </li>
+                    <li class="pagination__list-item">
+                        <a href="#" class="pagination__list-link">3</a>
+                    </li>
+                    <li class="pagination__list-item">
+                        <a href="#" class="pagination__list-link">...</a>
+                    </li>
+                    <li class="pagination__list-item">
+                        <a href="#" class="pagination__list-link">6</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="#" class="logo">
+          <img src="./images/icon/lofo.svg" alt="">
+        </a>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Новинки</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Бестселлеры</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Серии</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Авторам</a>
+          </li>
+        </ul>
+
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">О нас</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">СМИ и блогерам</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Оплата и доставка</a>
+          </li>
+        </ul>
+        <div class="footer__content">
+          <div class="footer__content-address">
+            999123, Здесь будет адрес вашего издательства
+          </div>
+          <a href="#" class="footer__content-phone">+7 999 123 44 55</a>
+          <a href="" class="footer__content-email">Polynmail.com</a>
+          <div class="footer__content-social">
+            <a href="#" class="footer__content-social-link">
+              <img src="./images/icon/telegram.svg" alt="img">
+            </a>
+            <a href="#" class="footer__content-social-link">
+              <img src="./images/icon/vk.svg" alt="img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<script src="js/main.min.js"></script>
+</body>
+</html>
