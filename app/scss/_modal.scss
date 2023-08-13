@@ -42,6 +42,84 @@
   background-color: #397479;
   color: #fff;
 }
+
+//CARD-MODAL
+.card-modal{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(35, 31, 32, 0.60);
+}
+.card-modal__inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-modal__block {
+    position: relative;
+    max-width: 64rem;
+    width: 100%;
+    padding: 2.4rem;
+    border-radius: 12px;
+    background: #FFF;
+}
+.card-modal__block-title{
+    margin-bottom: 2.4rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.card-modal__item {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.card__line{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(57, 116, 121, 0.20);
+}
+.card-modal__item:last-child{
+    border-bottom: none;
+}
+.card-modal__box {
+    margin-left: 3rem;
+}
+.card-modal__item-title {
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+.card-modal__item-subtitle {
+    color: rgba(35, 31, 32, 0.60);
+}
+.card-modal__item-price {
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.card-modal__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 4rem;
+    color: #397479;
+    cursor: pointer;
+}
+.card-modal__btn{
+    margin-top: 3rem;
+    width: 100%;
+    height: 5rem;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background:  #397479;
+}
+
+
 .show{
     display: block;
 }

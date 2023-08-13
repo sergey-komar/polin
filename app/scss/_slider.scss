@@ -9,7 +9,9 @@
 .slick-prev-product-upsels,
 .slick-next-product-upsels,
 .slick-prev-news-theme,
-.slick-next-news-theme{
+.slick-next-news-theme,
+.slick-prev-header-arrows,
+.slick-next-header-arrows{
     padding: 0;
     font-size: 0;
     border: 0;
@@ -29,7 +31,9 @@
 .slick-prev-product-upsels::before,
 .slick-next-product-upsels::before,
 .slick-prev-news-theme::before,
-.slick-next-news-theme::before{
+.slick-next-news-theme::before,
+.slick-prev-header-arrows::before,
+.slick-next-header-arrows::before{
     position: absolute;
     content: '';
     width: 5rem;
@@ -44,6 +48,9 @@
 .slick-prev-news-theme::before{
     background: url('../images/home/qrrows-left.png') no-repeat;
 }
+.slick-prev-header-arrows::before{
+    background: url('../images/header-arrows-left.png') no-repeat;
+}
 .slick-next::before,
 .slick-next-bestsellers::before,
 .slick-next-merch::before,
@@ -52,14 +59,49 @@
 .slick-next-news-theme::before{
     background: url('../images/home/arrows-right.png') no-repeat;
 }
+.slick-next-header-arrows::before{
+    background: url('../images/header-arrows-right.png') no-repeat;
+}
 .card-top__arrows,
 .bestsellers-top__arrows,
 .merch-top__arrows,
 .home-news__top-arrows,
 .product-upsels__arrows,
-.news-theme__arrows{
+.news-theme__arrows,
+.header-slider__arrows{
     display: flex;
     margin-right: 6rem;
     column-gap: 1.5rem;
     margin-bottom: 6rem;
+}
+.header-slider__arrows{
+    margin-bottom: 1rem;
+    transform: translateY(-7rem);
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+}
+.slick-dots li button{
+    padding: 0;
+    font-size: 0;
+    border: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.40);
+}
+.slick-dots .slick-active  button{
+    background-color: #fff;
+}
+.product-block .slick-dots li button{
+    background-color:  rgba(57, 116, 121, 0.40);
+}
+.product-block .slick-dots .slick-active  button{
+    background-color: #397479;
+}
+.product-block .slick-dots{
+    padding: 0;
 }

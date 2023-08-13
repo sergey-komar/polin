@@ -7,12 +7,15 @@
 .footer__inner {
     display: flex;
 }
+.footer__wrapper{
+    display: flex;
+}
 .footer__list {
+    padding-left: 0;
     width: 15rem;
     margin-left: 6rem;
 }
 .footer__list-item {
-   
     margin-bottom: 1.2rem;
 }
 .footer__content {

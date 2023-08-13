@@ -1,12 +1,63 @@
 $(function () {
 
+    $('.header-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        appendArrows: '.header-slider__arrows',
+        dots: false,
+        prevArrow: '<button type="button" class="slick-prev-header-arrows"></button>',
+        nextArrow: '<button type="button" class="slick-next-header-arrows"></button>',
+        responsive: [
+            {
+              breakpoint:950,
+              settings: {
+                arrows: false,
+                dots: true
+              }
+            },
+          ]
+    })
+
+
     $('.card-slider').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
          appendArrows: '.card-top__arrows',
         dots: false,
         prevArrow: '<button type="button" class="slick-prev"></button>',
-        nextArrow: '<button type="button" class="slick-next"></button>'
+        nextArrow: '<button type="button" class="slick-next"></button>',
+        responsive: [
+            {
+              breakpoint:1150,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+              }
+            },
+            {
+                breakpoint:800,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                }
+              },
+              {
+                breakpoint:600,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                }
+              },
+              {
+                breakpoint:450,
+                settings: {
+                  slidesToShow: 1.5,
+                  slidesToScroll: 1,
+                  infinite: false,
+                  arrows: false
+                }
+              },
+          ]
     })
 
     $('.bestsellers-slider').slick({
@@ -15,7 +66,39 @@ $(function () {
          appendArrows: '.bestsellers-top__arrows',
         dots: false,
         prevArrow: '<button type="button" class="slick-prev-bestsellers"></button>',
-        nextArrow: '<button type="button" class="slick-next-bestsellers"></button>'
+        nextArrow: '<button type="button" class="slick-next-bestsellers"></button>',
+        responsive: [
+            {
+              breakpoint:1150,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+              }
+            },
+            {
+                breakpoint:800,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                }
+              },
+              {
+                breakpoint:600,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                }
+              },
+              {
+                breakpoint:450,
+                settings: {
+                  slidesToShow: 1.5,
+                  slidesToScroll: 1,
+                  infinite: false,
+                  arrows: false
+                }
+              },
+          ]
     });
 
     $('.merch-slider').slick({
@@ -24,7 +107,39 @@ $(function () {
          appendArrows: '.merch-top__arrows',
         dots: false,
         prevArrow: '<button type="button" class="slick-prev-merch"></button>',
-        nextArrow: '<button type="button" class="slick-next-merch"></button>'
+        nextArrow: '<button type="button" class="slick-next-merch"></button>',
+        responsive: [
+          {
+            breakpoint:1150,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+            }
+          },
+          {
+              breakpoint:800,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint:600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint:450,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
+                infinite: false,
+                arrows: false
+              }
+            },
+        ]
     });
 
     $('.product-upsels-slider').slick({
@@ -33,7 +148,39 @@ $(function () {
          appendArrows: '.product-upsels__arrows',
         dots: false,
         prevArrow: '<button type="button" class="slick-prev-product-upsels"></button>',
-        nextArrow: '<button type="button" class="slick-next-product-upsels"></button>'
+        nextArrow: '<button type="button" class="slick-next-product-upsels"></button>',
+        responsive: [
+          {
+            breakpoint:1150,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+            }
+          },
+          {
+              breakpoint:800,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint:600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint:450,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
+                infinite: false,
+                arrows: false
+              }
+            },
+        ]
     });
 
     $('.news-theme-slider').slick({
@@ -42,7 +189,39 @@ $(function () {
          appendArrows: '.news-theme__arrows',
         dots: false,
         prevArrow: '<button type="button" class="slick-prev-news-theme"></button>',
-        nextArrow: '<button type="button" class="slick-next-news-theme"></button>'
+        nextArrow: '<button type="button" class="slick-next-news-theme"></button>',
+        responsive: [
+          {
+            breakpoint:1150,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+            }
+          },
+          {
+              breakpoint:800,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint:600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint:450,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
+                infinite: false,
+                arrows: false
+              }
+            },
+        ]
     });
 
 
@@ -73,8 +252,9 @@ $(function () {
         asNavFor: '.product-slider__thumb',
         draggable: false,
         arrows: false,
-        fade: true
-    })
+        fade: true,
+        dots: true
+   })
 
 
 
@@ -169,7 +349,7 @@ if(tabsItem && tabsItenBtn && tabsContent){
 const novelties = document.querySelector('.novelties');
 const btn = document.querySelector('.btnUp');
 
-if(document){
+if(document && novelties){
     document.addEventListener('scroll', () => {
         if(scrollY > novelties.offsetHeight){
             btn.classList.add('btnUp-visible');
@@ -192,17 +372,33 @@ if(btn){
       });
 }
 
-// const btn = document.querySelector('.btnUp');
-// function up() {
-//   window.addEventListener('scroll', () => {
-//     if(window.scrollY + document.documentElement.clientHeight >= document.documentElement.scrollHeight){
-//       btn.classList.add('btnUp-visible');
-//     }else{
-//       btn.classList.remove('btnUp-visible');
-//     }
-//   })
-// }
-// up();
+//card-modal
+const modal = document.querySelector('.card-modal'),
+        modalBtn = document.querySelectorAll('.header__center-basket'),
+        modalClose = document.querySelector('.card-modal__btn');
 
+
+if(modalBtn){
+    modalBtn.forEach(item => {
+      item.addEventListener('click', () => {
+        modal.classList.add('show');
+        modal.classList.remove('hide');
+      })
+    })
+}
+if(modalClose){
+    modalClose.addEventListener('click', () => {
+        modal.classList.add('hide');
+        modal.classList.remove('show');
+    })
+}
+
+
+const filter = document.querySelector('.search__wrapper-filter');
+const sidebar = document.querySelector('.sidebar--mobile');
+
+filter.addEventListener('click', () => {
+  sidebar.classList.toggle('sidebar-show')
+})
 
 });

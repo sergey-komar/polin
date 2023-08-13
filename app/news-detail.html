@@ -23,16 +23,33 @@
             </div>
             </div>
 
-            <a href="tel:+79991234455" class="header__top-phone">+7 999 123 44 55</a>
+            <div class="header__social">
+              <a href="#" class="header__social-link">
+                <img src="./images/icon/vk.svg" alt="img">
+              </a>
+              <a href="#" class="header__social-link">
+                <img src="./images/icon/telegram.svg" alt="img">
+              </a>
+            </div>
         </div>
     
+            <div class="header-center__mobile">
+              <a href="#" class="logo">
+              <img src="./images/icon/lofo.svg" alt="img">
+              </a>
+              <a href="#" class="header__center-basket">
+              <img src="./images/icon/basket.svg" alt="img">
+              <span>10</span>
+              </a>
+            </div>
+
         <div class="header__center">
             <a href="#" class="logo">
             <img src="./images/icon/lofo.svg" alt="img">
             </a>
             <div class="header__center-catalog">
-            <div class="header__center-catalog--btn"></div>
-                Каталог
+              <div class="header__center-catalog--btn"></div>
+               <span>Каталог</span>
             </div>
     
             <form action="#" class="header-form">
@@ -73,6 +90,9 @@
             </li>
             <li class="menu__list-item">
               <a href="./card.html" class="menu__list-link">Корзина</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./order.html" class="menu__list-link">Доставка</a>
             </li>
             </ul>
         </nav>
@@ -350,7 +370,49 @@
       </div>
     </div>
 </footer>
-
+<div class="card-modal">
+  <div class="container">
+    <div class="card-modal__inner">
+      <div class="card-modal__block">
+        <div class="card-modal__block-title">Ваш заказ</div>
+        <div class="card-modal__item">
+          <div class="card-modal__item-img">
+            <img src="./images/card-modal.png" alt="img">
+          </div>
+          <div class="card-modal__box">
+            <div class="card-modal__item-title">Ковен озера Шамплейн. Трилогия</div>
+            <div class="card-modal__item-subtitle">Анастасия Гор</div>
+          </div>
+          <div class="card-modal__item-price">1 x 450 ₽</div>
+        </div>
+        <div class="card__line"></div>
+        <div class="card-modal__item">
+          <div class="card-modal__item-img">
+            <img src="./images/card-modal.png" alt="img">
+          </div>
+          <div class="card-modal__box">
+            <div class="card-modal__item-title">Ковен озера Шамплейн. Трилогия</div>
+            <div class="card-modal__item-subtitle">Анастасия Гор</div>
+          </div>
+          <div class="card-modal__item-price">1 x 450 ₽</div>
+        </div>
+        <div class="card__line"></div>
+        <div class="card-modal__item">
+          <div class="card-modal__item-img">
+            <img src="./images/card-modal.png" alt="img">
+          </div>
+          <div class="card-modal__box">
+            <div class="card-modal__item-title">Ковен озера Шамплейн. Трилогия</div>
+            <div class="card-modal__item-subtitle">Анастасия Гор</div>
+          </div>
+          <div class="card-modal__item-price">1 x 450 ₽</div>
+        </div>
+        <!-- <div class="card-modal__close">&times;</div> -->
+        <button class="card-modal__btn">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
 <script src="js/main.min.js"></script>
 </body>
 </html>

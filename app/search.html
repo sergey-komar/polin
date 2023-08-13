@@ -7,99 +7,187 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-<header class="header">
-      <div class=" header__wrapper">
-        <div class="container">
-          <div class="header__top">
-            <div class="header__top-sity">
-              Выбрать город: Москва
-              <div class="sity-modal">
-                <div class="sity-modal__title">Ваш город Москва?</div>
-                <div class="sity-modal__text">От выбранного города зависят способы доставки.</div>
-                <div class="sity-modal__inner">
-                  <div class="sity-modal__btn">Нет, изменить</div>
-                  <div class="sity-modal__btn sity-modal__btn-active">Да, я здесь</div>
+  <header class="header">
+    <div class=" header__wrapper">
+      <div class="container">
+        <div class="header__top">
+          <div class="header__top-sity">
+            Выбрать город: Москва
+            <div class="sity-modal">
+              <div class="sity-modal__title">Ваш город Москва?</div>
+              <div class="sity-modal__text">От выбранного города зависят способы доставки.</div>
+              <div class="sity-modal__inner">
+                <div class="sity-modal__btn">Нет, изменить</div>
+                <div class="sity-modal__btn sity-modal__btn-active">Да, я здесь</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="header__social">
+            <a href="#" class="header__social-link">
+              <img src="./images/icon/vk.svg" alt="img">
+            </a>
+            <a href="#" class="header__social-link">
+              <img src="./images/icon/telegram.svg" alt="img">
+            </a>
+          </div>
+        </div>
+  
+        <div class="header__center">
+          <a href="#" class="logo">
+            <img src="./images/icon/lofo.svg" alt="img">
+          </a>
+          <div class="header__center-catalog">
+            <div class="header__center-catalog--btn"></div>
+             <span>Каталог</span>
+          </div>
+  
+          <form action="#" class="header-form">
+            <div class="header-form__wrapper">
+              <button class="header-form-btn"></button>
+              <input type="text" class="header-form-input" placeholder="Найти книгу....">
+            </div>
+          </form>
+  
+          <a href="#" class="header__center-basket">
+            <img src="./images/icon/basket.svg" alt="img">
+            <span>10</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="menu__wrapper">
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="./index.html" class="menu__list-link">Новинки</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./product.html" class="menu__list-link">Бестселлеры</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./news-detail.html" class="menu__list-link">Авторам</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./about.html" class="menu__list-link">О нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./news.html" class="menu__list-link">СМИ и блогерам</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./search.html" class="menu__list-link">Search</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./card.html" class="menu__list-link">Корзина</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./order.html" class="menu__list-link">Доставка</a>
+            </li>
+          </ul>
+        </nav>
+          <div class="sub-menu__wrapper">
+            <ul class="sub-menu">
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+   
+  </header>
+
+  <div class="header-block">
+    <div class="container">
+      <div class="header-slider">
+        <div class="header-slider__wrapper">
+          <div class="header__inner">
+            <div class="header-block__content">
+              <h1 class="header-block__content-title">
+                Красивый заголовок с акцией
+              </h1>
+              <p class="header-block__content-subtitle">
+                Здесь может быть подзаголовок
+              </p>
+              <p class="header-block__content-text">
+                *Здесь могут быть условия или сроки акции или просто что-то менее важное
+              </p>
+            </div>
+      
+            <div class="header-block__img">
+              <div class="header-block__img-sale">
+                <div class="header-block__img-sale--deg">
+                  25%
                 </div>
               </div>
-            </div>
-
-            <a href="tel:+79991234455" class="header__top-phone">+7 999 123 44 55</a>
-          </div>
-    
-          <div class="header__center">
-            <a href="#" class="logo">
-              <img src="./images/icon/lofo.svg" alt="img">
-            </a>
-            <div class="header__center-catalog">
-              <div class="header__center-catalog--btn"></div>
-               Каталог
-            </div>
-    
-            <form action="#" class="header-form">
-              <div class="header-form__wrapper">
-                <button class="header-form-btn"></button>
-                <input type="text" class="header-form-input" placeholder="Найти книгу....">
+              <div class="header-block__img-images">
+                <img  src="./images/header-cart/header-1.png" alt="img" >
               </div>
-            </form>
-    
-            <a href="#" class="header__center-basket">
-              <img src="./images/icon/basket.svg" alt="img">
-              <span>10</span>
-            </a>
+              <div class="header-block__img-images header-block__img-images--center">
+                <img  src="./images/header-cart/header-2.png" alt="img" >
+              </div>
+              <div class="header-block__img-images">
+                <img  src="./images/header-cart/header-3.png" alt="img" >
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="menu__wrapper">
-        <div class="container">
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__list-item">
-                <a href="./index.html" class="menu__list-link">Новинки</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="./product.html" class="menu__list-link">Бестселлеры</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="./news-detail.html" class="menu__list-link">Авторам</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="./about.html" class="menu__list-link">О нас</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="./news.html" class="menu__list-link">СМИ и блогерам</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link">Search</a>
-              </li>
-              <li class="menu__list-item">
-                <a href="./card.html" class="menu__list-link">Корзина</a>
-              </li>
-            </ul>
-          </nav>
-            <div class="sub-menu__wrapper">
-              <ul class="sub-menu">
-                  <li><a href="#">Бестселлеры</a></li>
-                  <li><a href="#">Бестселлеры</a></li>
-                  <li><a href="#">Бестселлеры</a></li>
-                  <li><a href="#">Бестселлеры</a></li>
-                  <li><a href="#">Бестселлеры</a></li>
-                  <li><a href="#">Детективное фэнтези</a></li>
-                  <li><a href="#">Детективное фэнтези</a></li>
-                  <li><a href="#">Детективное фэнтези</a></li>
-                  <li><a href="#">Детективное фэнтези</a></li>
-                  <li><a href="#">Детективное фэнтези</a></li>
-                  <li><a href="#">Магический реализм</a></li>
-                  <li><a href="#">Магический реализм</a></li>
-                  <li><a href="#">Магический реализм</a></li>
-                  <li><a href="#">Магический реализм</a></li>
-                  <li><a href="#">Магический реализм</a></li>
-                  <li><a href="#">Магический реализм</a></li>
-              </ul>
+      
+        <div class="header-slider__wrapper">
+          <div class="header__inner">
+            <div class="header-block__content">
+              <h1 class="header-block__content-title">
+                Красивый заголовок с акцией
+              </h1>
+              <p class="header-block__content-subtitle">
+                Здесь может быть подзаголовок
+              </p>
+              <p class="header-block__content-text">
+                *Здесь могут быть условия или сроки акции или просто что-то менее важное
+              </p>
             </div>
+      
+            <div class="header-block__img">
+              <div class="header-block__img-sale">
+                <div class="header-block__img-sale--deg">
+                  25%
+                </div>
+              </div>
+              <div class="header-block__img-images">
+                <img  src="./images/header-cart/header-1.png" alt="img" >
+              </div>
+              <div class="header-block__img-images header-block__img-images--center">
+                <img  src="./images/header-cart/header-2.png" alt="img" >
+              </div>
+              <div class="header-block__img-images">
+                <img  src="./images/header-cart/header-3.png" alt="img" >
+              </div>
+            </div>
+          </div>
         </div>
+       
+      </div>
+      <div class="header-slider__arrows">
+        <div class="card-top__arrows-left"></div>
+        <div class="card-top__arrows-right"></div>
       </div>
      
-</header>
+    </div>
+  </div>
 
 <main class="main">
     <section class="search">
@@ -110,7 +198,8 @@
                </h1> 
                <div class="search__rezult">19 результатов</div>
             </div>
-            <div class="search__sort">
+            <div class="search__wrapper">
+              <div class="search__sort">
                 <button class="search__sort-btn">Сортировать по</button>
                 <ul class="search__list">
                     <li><a class="search__list-link--active" href="#">По умолчанию</a></li>
@@ -118,7 +207,89 @@
                     <li><a href="#">Цена по убыванию</a></li>
                     <li><a href="#">Цена по возрастанию</a></li>
                 </ul>
+              </div>
+                <div class="search__wrapper-filter">
+                  Фильтры
+                </div>
             </div>
+            <div class="sidebar sidebar--mobile">
+              <form action="#" class="sidebar-form">
+                  <a href="#" class="sidebar-form__link">
+                      <label class="sidebar-form__label">
+                          <div class="sidebar-form__box">
+                          <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                              <span class="sidebar-form__custom-checkbox"></span>
+                          </div>
+                          <div class="sidebar-form__label-text">В наличии</div>
+                      </label>
+                  </a>   
+
+                  <a href="#" class="sidebar-form__link">
+                      <label class="sidebar-form__label">
+                          <div class="sidebar-form__box">
+                          <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                              <span class="sidebar-form__custom-checkbox"></span>
+                          </div>
+                          <div class="sidebar-form__label-text">Мерч</div>
+                      </label>
+                  </a>   
+              </form>
+
+
+              <div class="sidebar-form__inner">
+                  <div class="sidebar-form__inner-title">По возрасту</div>
+                  <form action="#" class="sidebar-form">
+                      <a href="#" class="sidebar-form__link">
+                        <label class="sidebar-form__label">
+                            <div class="sidebar-form__box">
+                            <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                                <span class="sidebar-form__custom-checkbox"></span>
+                            </div>
+                            <div class="sidebar-form__label-text">18+</div>
+                        </label>
+                      </a>   
+
+                      <a href="#" class="sidebar-form__link">
+                        <label class="sidebar-form__label">
+                            <div class="sidebar-form__box">
+                            <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                                <span class="sidebar-form__custom-checkbox"></span>
+                            </div>
+                            <div class="sidebar-form__label-text">16+</div>
+                        </label>
+                      </a>   
+
+                      <a href="#" class="sidebar-form__link">
+                          <label class="sidebar-form__label">
+                              <div class="sidebar-form__box">
+                              <input type="checkbox"id="search"class="sidebar-form__custom-input">
+                                  <span class="sidebar-form__custom-checkbox"></span>
+                              </div>
+                              <div class="sidebar-form__label-text">14+</div>
+                          </label>
+                      </a>   
+                </form>
+              </div>
+
+              <div class="sidebar-search">
+                  <div class="sidebar-search__title">Серии</div>
+                  <form action="" class="sidebar-search__form">
+                      <input type="text" class="sidebar-search__form-input" placeholder="Название серии...">
+                  </form>
+              </div>
+
+              <div class="sidebar-search">
+                  <div class="sidebar-search__title">Автор</div>
+                  <form action="" class="sidebar-search__form">
+                      <input type="text" class="sidebar-search__form-input" placeholder="Имя автора...">
+                  </form>
+              </div>
+            
+            </div>
+
+
+
+
             <div class="search-block">
                <div class="sidebar">
                     <form action="#" class="sidebar-form">
@@ -414,7 +585,49 @@
       </div>
     </div>
 </footer>
-
+<div class="card-modal">
+  <div class="container">
+    <div class="card-modal__inner">
+      <div class="card-modal__block">
+        <div class="card-modal__block-title">Ваш заказ</div>
+        <div class="card-modal__item">
+          <div class="card-modal__item-img">
+            <img src="./images/card-modal.png" alt="img">
+          </div>
+          <div class="card-modal__box">
+            <div class="card-modal__item-title">Ковен озера Шамплейн. Трилогия</div>
+            <div class="card-modal__item-subtitle">Анастасия Гор</div>
+          </div>
+          <div class="card-modal__item-price">1 x 450 ₽</div>
+        </div>
+        <div class="card__line"></div>
+        <div class="card-modal__item">
+          <div class="card-modal__item-img">
+            <img src="./images/card-modal.png" alt="img">
+          </div>
+          <div class="card-modal__box">
+            <div class="card-modal__item-title">Ковен озера Шамплейн. Трилогия</div>
+            <div class="card-modal__item-subtitle">Анастасия Гор</div>
+          </div>
+          <div class="card-modal__item-price">1 x 450 ₽</div>
+        </div>
+        <div class="card__line"></div>
+        <div class="card-modal__item">
+          <div class="card-modal__item-img">
+            <img src="./images/card-modal.png" alt="img">
+          </div>
+          <div class="card-modal__box">
+            <div class="card-modal__item-title">Ковен озера Шамплейн. Трилогия</div>
+            <div class="card-modal__item-subtitle">Анастасия Гор</div>
+          </div>
+          <div class="card-modal__item-price">1 x 450 ₽</div>
+        </div>
+        <!-- <div class="card-modal__close">&times;</div> -->
+        <button class="card-modal__btn">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
 <script src="js/main.min.js"></script>
 </body>
 </html>

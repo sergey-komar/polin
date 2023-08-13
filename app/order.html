@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<header class="header">
+    <div class=" header__wrapper">
+      <div class="container">
+        <div class="header__top">
+          <div class="header__top-sity">
+            Выбрать город: Москва
+            <div class="sity-modal">
+              <div class="sity-modal__title">Ваш город Москва?</div>
+              <div class="sity-modal__text">От выбранного города зависят способы доставки.</div>
+              <div class="sity-modal__inner">
+                <div class="sity-modal__btn">Нет, изменить</div>
+                <div class="sity-modal__btn sity-modal__btn-active">Да, я здесь</div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="header__social">
+            <a href="#" class="header__social-link">
+              <img src="./images/icon/vk.svg" alt="img">
+            </a>
+            <a href="#" class="header__social-link">
+              <img src="./images/icon/telegram.svg" alt="img">
+            </a>
+          </div>
+        </div>
+          <div class="header-center__mobile">
+            <a href="#" class="logo">
+              <img src="./images/icon/lofo.svg" alt="img">
+            </a>
+            <a href="#" class="header__center-basket">
+              <img src="./images/icon/basket.svg" alt="img">
+              <span>10</span>
+            </a>
+          </div>
+        <div class="header__center">
+          <a href="#" class="logo">
+            <img src="./images/icon/lofo.svg" alt="img">
+          </a>
+          <div class="header__center-catalog">
+            <div class="header__center-catalog--btn"></div>
+             <span>Каталог</span>
+          </div>
+  
+          <form action="#" class="header-form">
+            <div class="header-form__wrapper">
+              <button class="header-form-btn"></button>
+              <input type="text" class="header-form-input" placeholder="Найти книгу....">
+            </div>
+          </form>
+  
+          <a href="#" class="header__center-basket">
+            <img src="./images/icon/basket.svg" alt="img">
+            <span>10</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="menu__wrapper">
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="./index.html" class="menu__list-link">Новинки</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./product.html" class="menu__list-link">Бестселлеры</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./news-detail.html" class="menu__list-link">Авторам</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./about.html" class="menu__list-link">О нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./news.html" class="menu__list-link">СМИ и блогерам</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="./search.html" class="menu__list-link">Search</a>
+            </li>
+            <li class="menu__list-item">
+                <a href="./card.html" class="menu__list-link">Корзина</a>
+            </li>
+            <li class="menu__list-item">
+                <a href="./order.html" class="menu__list-link">Доставка</a>
+            </li>
+          </ul>
+        </nav>
+          <div class="sub-menu__wrapper">
+            <ul class="sub-menu">
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Детективное фэнтези</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+                <li><a href="#">Магический реализм</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+   
+</header>
+<body>
+    
+<main class="main">
+   <section class="order">
+    <div class="container">
+        <a href="#" class="order__link">Вернуться в корзину</a>
+        <h1 class="order__title">Оформление заказа</h1>
+        <div class="order-block">
+            <div class="order-block__left">
+                <form class="order-form">
+                    <div class="order-form__top">
+                        <div class="order-form__top-title">Способ получения</div>
+                        <a href="#" class="order-form__top-link">Выбрать город: Москва</a>
+                    </div>
+
+                    <div class="order-form__button">
+                        <button class="order-form__btn">Самовывоз</button>
+                        <button class="order-form__btn order-form__btn--white">Почта России</button>
+                    </div>
+                    <div class="order-box">
+                        <div class="order-box__item order-box__item--active">
+                            <label  class="order-box__label">
+                                <input type="radio"  name="order" class="order-box__item-input" placeholder="Забрать в магазине">
+                                <span class="order-box__item-checkbox"></span>
+                                <span class="order-box__label-text">Забрать в магазине</span>
+                            </label>
+
+                            <div class="order-box__item-text">
+                                Бесплатно с 9:00-19:00; сб, вс – выходной
+                            </div>
+                        </div>
+                        <div class="order-box__item">
+                            <label  class="order-box__label">
+                                <input type="radio" name="order" class="order-box__item-input" placeholder="">
+                                <span class="order-box__item-checkbox"></span>
+                                <span class="order-box__label-text">В пункте выдачи</span>
+                            </label>
+                            <div class="order-box__item-text"> От 300 ₽12 августа</div>
+                        </div>
+                    </div>
+
+                    <div class="order-form__adrress">999123, Здесь будет адрес вашего издательства</div>
+
+                    <div class="order-form__item">
+                        Имя и фамилия
+                        <input type="text" class="order-form__item-input" placeholder="Введите имя и фамилию...">
+                    </div>
+                    <div class="order-form__item">
+                        Телефон
+                        <input type="text" class="order-form__item-input" placeholder="8(900)-000-00-00">
+                    </div>
+                    <div class="order-form__item">
+                        Адрес эл.почты
+                        <input type="text" class="order-form__item-input" placeholder="Введите адрес эл.почты...">
+                    </div>
+                    <div class="order-form__text">
+                        *Нам нужна эта информация, чтобы связаться с вами в случае вопросов по заказу
+                    </div>
+                </form>
+
+              
+
+                <div class="order-payment">
+                    <div class="order-payment__title">Выбрать способ оплаты</div>
+                    <div class="order-payment__block">
+                        <div class="order-payment__item order-payment__item--active">
+                            <label class="order-payment__label">
+                                <input type="radio" name="payment" class="order-payment__item-input" placeholder="">
+                                <span class="order-payment__item-checkbox"></span>
+                                <span class="order-payment__label-text">Банковской картой</span>
+                            </label>
+                            <div class="order-payment__item-text">
+                                Оплата производится банковской картой через сервис “Название сервиса”. Подтверждением вашей оплаты является электронное почтовое уведомление, пришедшее после оплаты.
+                            </div>
+                        </div>
+
+                        <div class="order-payment__item">
+                            <label class="order-payment__label">
+                                <input type="radio" name="payment" class="order-payment__item-input" placeholder="">
+                                <span class="order-payment__item-checkbox"></span>
+                                <span class="order-payment__label-text">Сберпэй</span>
+                            </label>
+                            <div class="order-payment__item-text"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="order-block__right">
+                <div class="card-order">
+                    <div class="card-order__inner">
+                       <div class="card-order__item">
+                            <div class="card-order__item-title">Товары(1)</div>
+                            <div class="card-order__item-price">450 ₽</div>
+                       </div>
+                       <div class="card-order__item">
+                            <div class="card-order__item-title">Скидка</div>
+                            <div class="card-order__item-price card-order__item-price--sale">-150 ₽</div>
+                       </div>
+                       <div class="card-order__item">
+                            <div class="card-order__item-title">Доставка</div>
+                            <div class="card-order__item-price card-order__item-price--order">Не выбрана</div>
+                        </div>
+                        <div class="order__line"></div>
+                        <div class="card-order__item">
+                            <div class="card-order__item-title">Итого</div>
+                            <div class="card-order__item-price order__price">450 ₽</div>
+                        </div>
+
+                       <a href="#" class="card-order__btn order__btn">Оплатить</a>
+                       
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+        <a href="#" class="logo">
+            <img src="./images/icon/lofo.svg" alt="">
+        </a>
+        <ul class="footer__list">
+            <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Новинки</a>
+            </li>
+            <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Бестселлеры</a>
+            </li>
+            <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Серии</a>
+            </li>
+            <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Авторам</a>
+            </li>
+        </ul>
+
+        <ul class="footer__list">
+            <li class="footer__list-item">
+            <a href="#" class="footer__list-link">О нас</a>
+            </li>
+            <li class="footer__list-item">
+            <a href="#" class="footer__list-link">СМИ и блогерам</a>
+            </li>
+            <li class="footer__list-item">
+            <a href="#" class="footer__list-link">Оплата и доставка</a>
+            </li>
+        </ul>
+        <div class="footer__content">
+            <div class="footer__content-address">
+            999123, Здесь будет адрес вашего издательства
+            </div>
+            <a href="#" class="footer__content-phone">+7 999 123 44 55</a>
+            <a href="" class="footer__content-email">Polynmail.com</a>
+            <div class="footer__content-social">
+            <a href="#" class="footer__content-social-link">
+                <img src="./images/icon/telegram.svg" alt="img">
+            </a>
+            <a href="#" class="footer__content-social-link">
+                <img src="./images/icon/vk.svg" alt="img">
+            </a>
+            </div>
+        </div>
+        </div>
+    </div>
+</footer>
+
+<div class="card-modal">
+  <div class="container">
+    <div class="card-modal__inner">
+      <div class="card-modal__block">
+        <div class="card-modal__block-title">Ваш заказ</div>
+        <div class="card-modal__item">
+          <div class="card-modal__item-img">
+            <img src="./images/card-modal.png" alt="img">
+          </div>
+          <div class="card-modal__box">
+            <div class="card-modal__item-title">Ковен озера Шамплейн. Трилогия</div>
+            <div class="card-modal__item-subtitle">Анастасия Гор</div>
+          </div>
+          <div class="card-modal__item-price">1 x 450 ₽</div>
+        </div>
+        <div class="card__line"></div>
+        <div class="card-modal__item">
+          <div class="card-modal__item-img">
+            <img src="./images/card-modal.png" alt="img">
+          </div>
+          <div class="card-modal__box">
+            <div class="card-modal__item-title">Ковен озера Шамплейн. Трилогия</div>
+            <div class="card-modal__item-subtitle">Анастасия Гор</div>
+          </div>
+          <div class="card-modal__item-price">1 x 450 ₽</div>
+        </div>
+        <div class="card__line"></div>
+        <div class="card-modal__item">
+          <div class="card-modal__item-img">
+            <img src="./images/card-modal.png" alt="img">
+          </div>
+          <div class="card-modal__box">
+            <div class="card-modal__item-title">Ковен озера Шамплейн. Трилогия</div>
+            <div class="card-modal__item-subtitle">Анастасия Гор</div>
+          </div>
+          <div class="card-modal__item-price">1 x 450 ₽</div>
+        </div>
+        <!-- <div class="card-modal__close">&times;</div> -->
+        <button class="card-modal__btn">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
